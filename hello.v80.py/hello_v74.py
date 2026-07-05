@@ -1,0 +1,8 @@
+name = input("Enter your name: ")
+file = open("name.txt", "w")
+file.write(name)
+file.close()
+file = open("name.txt", "r")
+text = file.read()
+print(text)
+file.close()
