@@ -11,10 +11,10 @@ while True:
     choice = int(input("Choose: "))
     if choice == 1:
         password = ""
-        length = int(input("The password length:"))
+        length = int(input("The password length: "))
         for i in range(length):
             elements = random.choice(all_symbols)
             password = password + elements
-        print("Password is:", password)
+        print("Generated password is:", password)
     elif choice == 2:
         break
