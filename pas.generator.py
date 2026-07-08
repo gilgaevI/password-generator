@@ -15,6 +15,6 @@ while True:
         for i in range(length):
             elements = random.choice(all_symbols)
             password = password + elements
-        print("Generated password is:", password, "!!!")
+        print("Generated password is:", password, "!")
     elif choice == 2:
         break
